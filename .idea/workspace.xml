@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d936d87-25ea-4be8-a598-a687d7468088" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cn/dingli/edu/net/InetAddressTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/dingli/edu/net/UdpReceive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/dingli/edu/net/UdpSend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/dingli/edu/net/Chat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/dingli/edu/net/ChatReceive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/dingli/edu/net/ChatSend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/dingli/edu/net/UdpSend02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/dingli/edu/net/UdpReceive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/dingli/edu/net/UdpReceive.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,9 +20,9 @@
     <session id="-1487675482">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="36" />
+          <entry key="project.closed" value="38" />
           <entry key="project.open.time.0" value="7" />
-          <entry key="project.open.time.1" value="16" />
+          <entry key="project.open.time.1" value="17" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.2" value="3" />
@@ -32,13 +34,13 @@
           <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="37" />
+          <entry key="project.opened" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="3" />
-          <entry key="java" value="168" />
+          <entry key="java" value="172" />
           <entry key="properties" value="4" />
           <entry key="txt" value="1" />
         </counts>
@@ -46,7 +48,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="3" />
-          <entry key="JAVA" value="168" />
+          <entry key="JAVA" value="172" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="4" />
         </counts>
@@ -55,13 +57,13 @@
         <counts>
           <entry key="dummy" value="2" />
           <entry key="ft" value="50" />
-          <entry key="java" value="22743" />
+          <entry key="java" value="23698" />
           <entry key="properties" value="154" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="22743" />
+          <entry key="JAVA" value="23698" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="Properties" value="154" />
           <entry key="VTL" value="50" />
@@ -72,10 +74,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/dingli/edu/net/InetAddressTest.java">
+        <entry file="file://$PROJECT_DIR$/src/cn/dingli/edu/net/UdpSend.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="18" column="59" lean-forward="true" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
+            <state relative-caret-position="215">
+              <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,10 +86,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/dingli/edu/net/UdpSend.java">
+        <entry file="file://$PROJECT_DIR$/src/cn/dingli/edu/net/UdpReceive.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+            <state relative-caret-position="337">
+              <caret line="33" column="31" lean-forward="true" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/dingli/edu/net/UdpSend02.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-128">
+              <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -96,10 +110,38 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cn/dingli/edu/net/UdpReceive.java">
+        <entry file="file://$PROJECT_DIR$/src/cn/dingli/edu/net/ChatSend.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+            <state relative-caret-position="579">
+              <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#263#264#0" expanded="true" />
+                <element signature="e#315#316#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/dingli/edu/net/ChatReceive.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#270#271#0" expanded="true" />
+                <element signature="e#322#323#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/dingli/edu/net/Chat.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="61">
+              <caret line="30" column="57" lean-forward="true" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,10 +165,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/cn/dingli/edu/collection/Person.java" />
-        <option value="$PROJECT_DIR$/src/cn/dingli/edu/collection/TreeSetDemo.java" />
-        <option value="$PROJECT_DIR$/src/cn/dingli/edu/collection/HashMapDemo.java" />
-        <option value="$PROJECT_DIR$/src/cn/dingli/edu/collection/IteratorDemo.java" />
         <option value="$PROJECT_DIR$/src/cn/dingli/edu/collection/CollectionsDemo.java" />
         <option value="$PROJECT_DIR$/src/cn/dingli/edu/collection/Poker.java" />
         <option value="$PROJECT_DIR$/src/cn/dingli/edu/serializable/Heroes.java" />
@@ -172,8 +210,12 @@
         <option value="$PROJECT_DIR$/src/cn/dingli/edu/multiThread/ProAndConTest.java" />
         <option value="$PROJECT_DIR$/src/cn/dingli/edu/multiThread/Product.java" />
         <option value="$PROJECT_DIR$/src/cn/dingli/edu/net/InetAddressTest.java" />
-        <option value="$PROJECT_DIR$/src/cn/dingli/edu/net/UdpReceive.java" />
         <option value="$PROJECT_DIR$/src/cn/dingli/edu/net/UdpSend.java" />
+        <option value="$PROJECT_DIR$/src/cn/dingli/edu/net/UdpSend02.java" />
+        <option value="$PROJECT_DIR$/src/cn/dingli/edu/net/UdpReceive.java" />
+        <option value="$PROJECT_DIR$/src/cn/dingli/edu/net/ChatReceive.java" />
+        <option value="$PROJECT_DIR$/src/cn/dingli/edu/net/Chat.java" />
+        <option value="$PROJECT_DIR$/src/cn/dingli/edu/net/ChatSend.java" />
       </list>
     </option>
   </component>
@@ -266,7 +308,7 @@
     <property name="SearchEverywhereHistoryKey" value="Arrays&#9;PSI&#9;JAVA://java.util.Arrays&#10;Collections&#9;FILE&#9;jar://D:/Program Files/Java/jdk1.8.0_65/jre/lib/rt.jar!/java/util/Collections.class" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1604483985950" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1604627095728" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/cn/dingli/edu/jdbc/JdbcTest05.java" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -295,13 +337,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UdpSend">
-    <configuration name="AccountTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.dingli.edu.multiThread.AccountTest" />
+  <component name="RunManager" selected="Application.Chat">
+    <configuration name="Chat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.dingli.edu.net.Chat" />
       <module name="class09" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.dingli.edu.multiThread.*" />
+          <option name="PATTERN" value="cn.dingli.edu.net.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -315,19 +357,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.dingli.edu.net.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProAndConTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.dingli.edu.multiThread.ProAndConTest" />
-      <module name="class09" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.dingli.edu.multiThread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -361,20 +390,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UdpSend02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.dingli.edu.net.UdpSend02" />
+      <module name="class09" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.dingli.edu.net.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.AccountTest" />
-      <item itemvalue="Application.ProAndConTest" />
       <item itemvalue="Application.InetAddressTest" />
       <item itemvalue="Application.UdpSend" />
       <item itemvalue="Application.UdpReceive" />
+      <item itemvalue="Application.UdpSend02" />
+      <item itemvalue="Application.Chat" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UdpSend" />
+        <item itemvalue="Application.Chat" />
         <item itemvalue="Application.UdpReceive" />
+        <item itemvalue="Application.UdpSend02" />
+        <item itemvalue="Application.UdpSend" />
         <item itemvalue="Application.InetAddressTest" />
-        <item itemvalue="Application.ProAndConTest" />
-        <item itemvalue="Application.AccountTest" />
       </list>
     </recent_temporary>
   </component>
@@ -424,12 +466,13 @@
       <workItem from="1604015731817" duration="4563000" />
       <workItem from="1604037832244" duration="6290000" />
       <workItem from="1604296683598" duration="6677000" />
-      <workItem from="1604481086626" duration="2681000" />
+      <workItem from="1604481086626" duration="3670000" />
+      <workItem from="1604620483951" duration="6568000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137011000" />
+    <option name="totallyTimeSpent" value="144568000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -444,7 +487,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4594972" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3226257" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.7206704" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -475,7 +518,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4594972" />
+      <window_info anchor="bottom" id="Run" order="2" weight="1.0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.7206704" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -504,22 +547,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/cn/dingli/edu/TestCdk.java" />
-    <entry file="file://$PROJECT_DIR$/src/cn/dingli/edu/Cdk.java" />
-    <entry file="file://$PROJECT_DIR$/src/cn/dingli/edu/serializable/Heroes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/dingli/edu/serializable/SerializableTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/dingli/edu/annotation/AnnotationTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -830,8 +857,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/dingli/edu/net/InetAddressTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="18" column="59" lean-forward="true" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
+        <state relative-caret-position="476">
+          <caret line="18" column="59" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -840,8 +867,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/dingli/edu/net/UdpSend.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+        <state relative-caret-position="215">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/dingli/edu/net/UdpSend02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-128">
+          <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -850,10 +887,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/dingli/edu/net/UdpReceive.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="20" column="38" lean-forward="true" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+        <state relative-caret-position="337">
+          <caret line="33" column="31" lean-forward="true" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/dingli/edu/net/ChatReceive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/dingli/edu/net/Chat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="30" column="57" lean-forward="true" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/dingli/edu/net/ChatSend.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
           </folding>
         </state>
       </provider>
